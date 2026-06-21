@@ -1,0 +1,27 @@
+# Template file for 'bitwig-studio'
+pkgname=bitwig-studio
+version=5.1.9
+revision=1
+archs="x86_64"
+short_desc="DAW for music production, remixing and live performance"
+license="custom:bitwig"
+homepage="https://bitwig.com/"
+distfiles="https://downloads.bitwig.com/flathub/BitwigStudio-${version}.zip"
+checksum=cdf5e718cce333a4c73d4d70a3b672d3f02214afd3fce4aab015f2b09ea8f986
+nostrip=yes
+restricted=yes
+repository=nonfree
+noverifyrdeps=yes
+
+do_install() {
+    vmkdir opt/bitwig-studio
+    vcopy * opt/bitwig-studio
+    for i in 48x48 128x128; do
+        vinstall ${wrksrc}/share/icons/hicolor/${i}/apps/com.bitwig.BitwigStudio.png 644 \
+            usr/share/icons/hicolor/${i}/apps bitwig-studio.png
+    done
+    vinstall ${wrksrc}/share/applications/com.bitwig.BitwigStudio.desktop 644 usr/share/applications
+    vmkdir usr/bin
+    ln -s /opt/bitwig-studio/bitwig-studio ${DESTDIR}/usr/bin/
+    vlicense ${DESTDIR}/opt/bitwig-studio/EULA.txt
+}
