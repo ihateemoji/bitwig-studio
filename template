@@ -18,7 +18,7 @@ do_install() {
     vcopy * opt/bitwig-studio
     for i in 48x48 128x128; do
         vinstall ${wrksrc}/share/icons/hicolor/${i}/apps/com.bitwig.BitwigStudio.png 644 \
-            usr/share/icons/hicolor/${i}/apps bitwig-studio.png
+            usr/share/icons/hicolor/${i}/apps com.bitwig.BitwigStudio.png
     done
     vinstall ${wrksrc}/share/applications/com.bitwig.BitwigStudio.desktop 644 usr/share/applications
     vmkdir usr/bin
