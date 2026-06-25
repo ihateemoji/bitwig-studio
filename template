@@ -11,7 +11,8 @@ checksum=cdf5e718cce333a4c73d4d70a3b672d3f02214afd3fce4aab015f2b09ea8f986
 nostrip=yes
 restricted=yes
 repository=nonfree
-noverifyrdeps=yes
+# fix the SONAME: ld-linux.so.2 <-> UNKNOWN PKG PLEASE FIX issue (there's got to be a better way)
+shlib_provides="ld-linux.so.2"
 
 do_install() {
     vmkdir opt/bitwig-studio
