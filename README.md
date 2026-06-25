@@ -2,14 +2,6 @@
 
 This repository contains files for packaging Bitwig Studio 5 for Void Linux using the XBPS package manager.
 
-## Files
-
-1. `template`: XBPS template file for Bitwig Studio 5
-
-## Template File
-
-The `template` file is an XBPS template for Bitwig Studio 5.
-
 - Architecture: x86_64 only
 - Build style: precompiled binaries
 
