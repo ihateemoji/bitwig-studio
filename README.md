@@ -9,7 +9,7 @@ This repository contains files for packaging Bitwig Studio 5 for Void Linux usin
 
 To install the Bitwig Studio 5 package:
 
-1. Clone the Void Packages repository:
+1. Clone the repository:
    ```sh
    git clone https://github.com/ihateemoji/bitwig-studio.git
    ```
