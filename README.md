@@ -1,1 +1,1 @@
-Crappy template I wrote for the Bitwig Studio 5.
+Crappy xbps-src template for the Bitwig Studio 5.
