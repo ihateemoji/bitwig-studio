@@ -1,23 +1,21 @@
-# Bitwig Studio XBPS Package
+# Bitwig Studio 5 XBPS Package
 
-This repository contains files for packaging Bitwig Studio for Void Linux using the XBPS package manager.
+This repository contains files for packaging Bitwig Studio 5 for Void Linux using the XBPS package manager.
 
 ## Files
 
-1. `template`: XBPS template file for Bitwig Studio
+1. `template`: XBPS template file for Bitwig Studio 5
 
 ## Template File
 
-The `template` file is an XBPS template for Bitwig Studio.
+The `template` file is an XBPS template for Bitwig Studio 5.
 
 - Architecture: x86_64 only
 - Build style: precompiled binaries
 
-The template file handles the installation of precompiled binaries and sets up the necessary package metadata.
-
 ### Installation
 
-To install the Bitwig Studio package:
+To install the Bitwig Studio 5 package:
 
 1. Clone the Void Packages repository:
    ```sh
@@ -39,17 +37,3 @@ To install the Bitwig Studio package:
    ```sh
    bitwig-studio
    ```
-6. Enjoy!
-
-* You can also install using `vpsm` instead of (3) and (4):
-   ```sh
-   vpsm install bitwig-studio
-   ```
-
-## Contributing
-
-If you want to contribute to this package, please make sure to test your changes thoroughly before submitting a pull request.
-
-## Issues
-
-If you encounter any issues with the package or the update script, please open an issue in this repository.
