@@ -15,7 +15,7 @@ To install the Bitwig Studio 5 package:
    ```
 2. Copy the directory to the `srcpkgs/bitwig-studio` directory in your Void Packages repository:
    ```sh
-   cp -rf bitwig-studio /path/to/void-packages/srcpkgs/
+   cp -r bitwig-studio /path/to/void-packages/srcpkgs/
    ```
 3. Build the package:
    ```sh
