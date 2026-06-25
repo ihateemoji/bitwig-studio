@@ -31,7 +31,7 @@ To install the Bitwig Studio 5 package:
    ```
 4. Install the package:
    ```sh
-   sudo xbps-install --repository=hostdir/binpkgs bitwig-studio
+   sudo xbps-install --repository=hostdir/binpkgs/nonfree bitwig-studio
    ```
 5. Run Bitwig Studio:
    ```sh
