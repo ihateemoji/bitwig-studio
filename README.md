@@ -1,4 +1,4 @@
-# Bitwig Studio 5 XBPS Package
+# Bitwig Studio 6 XBPS Package
 
 This repository contains files for packaging Bitwig Studio 5 for Void Linux using the XBPS package manager.
 
